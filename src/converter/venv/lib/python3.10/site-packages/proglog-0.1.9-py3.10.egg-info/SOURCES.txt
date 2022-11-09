@@ -1,0 +1,15 @@
+LICENCE.txt
+MANIFEST.in
+README.rst
+ez_setup.py
+pypi-readme.rst
+setup.cfg
+setup.py
+proglog/__init__.py
+proglog/proglog.py
+proglog/version.py
+proglog.egg-info/PKG-INFO
+proglog.egg-info/SOURCES.txt
+proglog.egg-info/dependency_links.txt
+proglog.egg-info/requires.txt
+proglog.egg-info/top_level.txt

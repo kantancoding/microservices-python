@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Flask-MySQLdb
+Version: 0.2.0
+Summary: MySQLdb extension for Flask
+Home-page: https://github.com/admiralobvious/flask-mysqldb
+Author: Alexandre Ferland
+Author-email: aferlandqc@gmail.com
+License: MIT
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+
+Flask-MySQLdb
+----------------
+
+MySQLdb extension for Flask
+
+

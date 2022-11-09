@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: Flask-PyMongo
+Version: 2.3.0
+Summary: PyMongo support for Flask applications
+Home-page: http://flask-pymongo.readthedocs.org/
+Author: Dan Crosta
+Author-email: dcrosta@late.am
+License: BSD
+Download-URL: https://github.com/dcrosta/flask-pymongo/tags
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Flask (>=0.11)
+Requires-Dist: PyMongo (>=3.3)
+
+
+Flask-PyMongo
+-------------
+
+MongoDB support for Flask applications.
+
+Flask-PyMongo is pip-installable:
+
+    $ pip install Flask-PyMongo
+
+Documentation for Flask-PyMongo is available on `ReadTheDocs
+<http://flask-pymongo.readthedocs.io/en/latest/>`_.
+
+Source code is hosted on `GitHub <https://github.com/dcrosta/flask-pymongo>`_.
+Contributions are welcome!
+
+
