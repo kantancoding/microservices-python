@@ -13,7 +13,7 @@ moviepy==1.0.3
 numpy==1.22.2
 parso==0.8.3
 pika==1.2.0
-Pillow==9.0.1
+Pillow==9.3.0
 platformdirs==2.5.1
 proglog==0.1.9
 pylint==2.12.2

@@ -15,7 +15,3 @@ CREATE TABLE user (
 INSERT INTO user (email, password) VALUES ('user@example.com', 'Admin123');
 
   
-
-
-
-

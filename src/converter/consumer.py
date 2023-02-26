@@ -1,7 +1,11 @@
-import pika, sys, os, time
-from pymongo import MongoClient
+import os
+import sys
+import time
+
 import gridfs
+import pika
 from convert import to_mp3
+from pymongo import MongoClient
 
 
 def main():
@@ -30,6 +34,7 @@ def main():
     print("Waiting for messages. To exit press CTRL+C")
 
     channel.start_consuming()
+
 
 if __name__ == "__main__":
     try:
