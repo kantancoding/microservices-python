@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: sweasytech/gateway
+          image: kostua/gateway
           envFrom:
             - configMapRef:
                 name: gateway-configmap
