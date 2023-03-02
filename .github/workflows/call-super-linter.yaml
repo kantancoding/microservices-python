@@ -5,10 +5,12 @@ name: Lint Code Base
 on:
   
   push:
-    branches: [main]
+    branches: 
+      - '*' # run on all branches 
   
   pull_request: # run on all PRs
-    branches: [main]
+    branches: 
+      - '*' # run on all branches
 
 jobs:
   call-super-linter:
