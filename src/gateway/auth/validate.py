@@ -1,4 +1,6 @@
-import os, requests
+import os
+
+import requests
 
 
 def token(request):
