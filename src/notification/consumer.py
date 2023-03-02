@@ -1,4 +1,8 @@
-import pika, sys, os, time
+import os
+import sys
+import time
+
+import pika
 from send import email
 
 

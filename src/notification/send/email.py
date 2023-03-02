@@ -1,4 +1,6 @@
-import smtplib, os, json
+import json
+import os
+import smtplib
 from email.message import EmailMessage
 
 

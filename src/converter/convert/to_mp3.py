@@ -1,6 +1,10 @@
-import pika, json, tempfile, os
-from bson.objectid import ObjectId
+import json
+import os
+import tempfile
+
 import moviepy.editor
+import pika
+from bson.objectid import ObjectId
 
 
 def start(message, fs_videos, fs_mp3s, channel):
