@@ -26,7 +26,7 @@ jobs:
     ### you can also call workflows from inside the same repo via file path
 
     #FIXME: customize uri to point to your own linter repository
-    uses: Kostua/super-linter-workflow/.github/workflows/reusable-super-linter.yaml@mai
+    uses: Kostua/super-linter-workflow/.github/workflows/reusable-super-linter.yaml@main
     
     ### Optional settings examples
     
