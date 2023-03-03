@@ -2,15 +2,14 @@
 # template source: https://github.com/bretfisher/super-linter-workflow/blob/main/templates/call-super-linter.yaml
 name: Lint Code Base
 
+
 on:
   
   push:
-    branches: 
-      - '*' # run on all branches 
+    branches: [main]
   
-  pull_request: # run on all PRs
-    branches: 
-      - '*' # run on all branches
+  pull_request:
+
 
 jobs:
   call-super-linter:
@@ -25,7 +24,7 @@ jobs:
     ### https://docs.github.com/en/actions/learn-github-actions/reusing-workflows
     ### you can also call workflows from inside the same repo via file path
 
-    uses: bretfisher/super-linter-workflow/.github/workflows/reusable-super-linter.yaml@main
+    uses: Kostua/super-linter-workflow/.github/workflows/reusable-super-linter.yaml@main
 
     ### Optional settings examples
     
