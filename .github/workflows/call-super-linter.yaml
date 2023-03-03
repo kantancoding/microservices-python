@@ -16,9 +16,9 @@ jobs:
 
     name: Call Super-Linter
     
-    # permissions:
-    #   contents: read # clone the repo to lint
-    #   statuses: write #read/write to repo custom statuses
+    permissions:
+      contents: read # clone the repo to lint
+      statuses: write #read/write to repo custom statuses
 
     ### use Reusable Workflows to call my workflow remotely
     ### https://docs.github.com/en/actions/learn-github-actions/reusing-workflows
