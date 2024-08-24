@@ -35,7 +35,7 @@ def login():
         else:
             return createJWT(auth.username, os.environ.get("JWT_SECRET"), True)
     else:
-        return "invalide credentials", 401
+        return "invalid credentials", 401
 
 
 @server.route("/validate", methods=["POST"])
